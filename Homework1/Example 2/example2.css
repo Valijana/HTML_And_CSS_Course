@@ -1,0 +1,23 @@
+.divone{
+    background-color: #f2a062;
+    padding:15px;
+}
+.divtwo{
+    background-color: #f6bd62;
+    float: left;
+    width: 20.7%;
+    height: 400px;
+    padding: 15px;
+}
+.divthree {
+background-color: #8eabc0;
+float: left;
+width: 74.8%;
+height: 400px;
+padding: 15px;
+}
+.divfour {
+    background-color: #b7ce3f;
+    padding: 15px;
+    clear: both;
+}
