@@ -1,0 +1,14 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav a {
+    color: black;
+    font-weight: bold ;
+    display:block;
+    padding: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}

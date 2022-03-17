@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form 2</title>
+    <style>
+        *{
+            font-family: Arial, sans-serif;
+        }
+        label {
+            font-size: 20 px;
+        }
+        div {
+            margin-bottom:30px ;
+        }
+        input,textarea {
+            border:0;
+            border-bottom: 1px solid grey;
+            padding: 10px 0;
+            width: 200px;
+        }
+        button {
+            background-color: darkgrey;
+            border: 0;
+            color: white;
+            font-size: 12;
+            height: 50px;
+            width: 200px;
+            text-transform: uppercase;
+        }
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="url_to_send_from_data" method="post">
+   </form>
+   <div>
+    <label for="first_name">First name:</label><br/>
+    <input type="text" name="firstname" id="first_name" placeholder="Your first name"><br/>
+    <br/>
+    <label for="last_name">Last name:</label><br/>
+    <input type="text" name="lastname" id="last_name" placeholder="Your last name"><br/>
+    <br/>
+    <label for="message">Message:</label><br/>
+    <textarea id="message" rows="10" cols="30" placeholder="Type some message"></textarea><br/>
+    <br/>
+    <button type="submit">Submit</button>
+</div>
+</body>
+</html>
