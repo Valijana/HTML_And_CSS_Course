@@ -1,28 +1,44 @@
-body, header, nav, main, footer, h1, div, img {
+/* 
+Author: Valmira Izeti
+Date:31.03.2022
+File name:style.css
+*/
+/* CSS Reset*/
+
+/* Style rules for body and images*/
+body, header, footer, nav, main, footer,h1,h2, div, img {
     margin: 0;
     padding: 0;
     border: 0;
 }
 body {
-    background-color: #ccc;
+    background-color: #000;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
+/*Style rule for header*/
 header {
     float: left;
     width: 25%;
 }
-nav {
-    float:right;
+/*Style for rules for navigation area*/
+nav  {
+    float: right;
     margin: 5em 3em 0 0;
-    width:70%;
+    width: 70%;
 }
-nav ul  {
+nav ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     text-align: right;
 }
 nav ul li {
     display: inline-block;
-    font-size: 1.50em;
+    font-size: 1.5em;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
 }
 nav ul li a {
     display: block;
@@ -31,16 +47,12 @@ nav ul li a {
     padding: 0.5em 1em;
     text-decoration: none;
 }
+/*Style rules for main content*/
 main {
-    clear:left;
+    clear: left;
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
-}
-.action {
-    font-size: 1.35em;
-    color: #666600;
-    font-weight: bold;
 }
 h1 {
     text-align: center;
@@ -49,36 +61,34 @@ h1 {
     width: 80%;
     margin: 0 auto;
 }
-img {
-    max-width: 100%;
-    display: block;
-}
-#hero h2 {
-    color: #fff;
-    margin-left: 30px;
-    position: absolute;
-    font-size:xx-large;
-    font-family: Arial, sans-serif;
-}
 #hero {
     clear: both;
     position: relative;
 }
-footer  p {
+#hero h2 {
+    color: #fff;
+    position: absolute;
+    margin-left: 30px;
+}
+/*Style rules for footer content*/
+footer p {
     font-size: 0.75em;
     text-align: center;
     color: #fff;
     padding: 0 1em;
 }
+
 footer p a {
     color: #fff;
     text-decoration: none;
 }
-#weights #cardio #training {
+
+#weights, #cardio, #training {
     width: 29%;
-    float:left;
+    float: left;
     margin: 0 2%;
 }
+
 #exercises {
     clear: left;
     border-top: 1px solid #000;
@@ -86,25 +96,36 @@ footer p a {
     background-color: #f2f2f2;
     padding: 1% 2%;
 }
+
 #exercises dt {
     font-weight: bold;
 }
+
 #exercises dd {
-    padding: 0.5% 1% 2%  0;
+    padding: 0.5% 1% 2% 0;
 }
+
 #contact {
     text-align: center;
 }
+
 #contact a {
-    color:#666600;
-    text-decoration: none;
-}
-.external-link {
     color: #666600;
     text-decoration: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
     font-weight: bold;
 }
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .map {
     border: 8px solid #000;
-
 }
